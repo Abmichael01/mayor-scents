@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor Scents - Premium Perfumes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Mayor Scents</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Perfumes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Your Signature Scent</h1>
+                <p>Explore our collection of premium perfumes at affordable prices. Find the perfect fragrance that speaks to your personality.</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn primary">Shop Now</a>
+                    <a href="#about" class="btn secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero.jpg" alt="Premium perfume collection" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Mayor Scents</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="hero.jpg" alt="Mayor Scents perfume collection" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3>My Story</h3>
+                    <p>Welcome to Mayor Scents! I'm passionate about helping students at Lautech Ogbomoso find their perfect fragrance. What started as a hobby has grown into a small business serving our campus community.</p>
+                    
+                    <h3>My Promise</h3>
+                    <p>I offer authentic perfumes at student-friendly prices. Every fragrance in my collection is carefully selected to ensure quality and longevity. Whether you're looking for something for daily wear or special occasions, I've got you covered.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Perfume Varieties</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Fast</span>
+                            <span class="stat-label">Campus Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Collection</h2>
+                <div class="underline"></div>
+                <p>Explore our range of premium perfumes for every occasion and personality</p>
+            </div>
+            <div class="product-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="women">Women</button>
+                <button class="filter-btn" data-category="men">Men</button>
+                <button class="filter-btn" data-category="unisex">Unisex</button>
+            </div>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What My Customers Say</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="quote">"Mayor Scents has the best collection on campus! I found my signature scent here and get compliments every day. The prices are perfect for students like us."</div>
+                    <div class="author">
+                        <div class="author-image"></div>
+                        <div class="author-info">
+                            <h4>Adeola Johnson</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">"I love how Mayor delivers right to my hostel. The perfumes last all day and are exactly as described. Will definitely be a repeat customer!"</div>
+                    <div class="author">
+                        <div class="author-image"></div>
+                        <div class="author-info">
+                            <h4>Tunde Adeyemi</h4>
+                            <p>Engineering Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+                <p>Have questions about a specific perfume? Want to place an order? Reach out to me!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+234 800 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Find Me</h3>
+                            <p>Lautech Campus, Ogbomoso, Oyo State</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📸</div>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@mayor_scents</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-simple">
+                <div class="logo">Mayor Scents</div>
+                <p>Premium perfumes for Lautech students at affordable prices.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">WA</a>
+                    <a href="#" class="social-icon">FB</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#products">Perfumes</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Mayor Scents. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
